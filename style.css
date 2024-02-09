@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+    aside {
+        width: 90%;
+    }
+    header > p {
+        font-size: 16px;
+    }
+    main > p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    main {
+        width: 95%;
+    }
+    aside {
+        width: 95%;
+    }
+    header > p {
+        font-size: 14px;
+    }
+    main > p {
+        font-size: 0.9em;
+    }
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2659BF;   
+}
+
+.responsivo-imagem{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+picture source.responsivo-imagem{
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+
+header{
+    background-color:   #acadee65;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+header h1{
+    padding-top: 10px;
+}
+
+header > p {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+
+header >p{
+    font-size: 18px;
+}
+
+main{
+    color: #180349dc;
+    min-width: 300px;
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+main > h1{
+    color:   #D9BD6A;
+    padding: 20px;
+}
+
+
+main >h2{
+    color: #0a6b27;
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 15px 0px;
+}
+
+
+div.video{
+    background-color:  #F2CA50;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom:59%;
+    position: relative;
+}
+
+div.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 85%;
+    height: 85%;
+}
+
+.emoji{
+    font-size: 45px;
+    margin-right: 5px;
+}
+
+
+aside{
+    color: #180349dc;
+    min-width: 300px;
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 30px;
+    padding: 20px;
+}
+
+aside >h1{
+    text-align: center;
+    color: #D9BD6A;
+    margin-top: 0px;
+}
+
+aside >p{
+   text-align: justify;
+   text-indent: 40px;
+   font-size: 1.2em;
+   line-height: 2em;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    text-align: justify;
+
+}
+
+aside > h2{
+    color: #0a6b27;
+
+}
+
+aside ol{
+    list-style-position: inside;
+    text-align: justify;
+    font-size: 1.2m;
+}
+
+footer{
+    background-color: rgba(201, 73, 73, 0.637);
+    padding: 20px 0;
+}
